@@ -1,98 +1,64 @@
-header{
-    background-image: url("./resources/Banner\ Image.png");
+header {
+    background-image: url("./images/Banner\ Image.png");
+    /* background-size: contain; */
     height: 600px;
-    width: 1300px;
-    margin-top: 20px;
-    margin-right: 130px;
-    margin-bottom: 20px;
-    margin-left: 30px;
+    width: 1200px;
+    margin: auto;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     color: #fff;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-#head-title{
- 
-}
-#din-title{
-    color: #FFF;
-white-space: 0px;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-
-font-weight: 900;
-line-height: 95px;
-
-}
-#head-title{
-    color: #FFF;
-text-align: center;
-
-font-size: 38px;
-font-style: normal;
-font-weight: 400px;
-line-height: normal;
-}
-.div-title{
+  }
+  #head-title {
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .div-title {
     text-align: center;
     font-size: 60px;
     padding-top: 0px;
     justify-content: center;
-
-}
-nav{
+  }
+  
+  nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
-}
-main{
+  }
+  
+  main {
+    /* Add your main content styles here */
     padding: 20px;
-
-}
-footer{
-    /* add your footer styles here */
+  }
+  
+  footer {
+    /* Add your footer styles here */
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-}
-#offer{
-    
-    
-    color: #F00;
-
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-#our-deal{
+  }
+  #offer {
+    margin-top: 0px;
+    color: #f00;
     text-align: center;
-    font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.our-deal{
-    
-    color: #F00;
-
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-#category{
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #our-deal {
+    color: #f00;
+    text-align: center;
+    font-size: 12px;
+  }
+  #category {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -100,48 +66,37 @@ line-height: normal;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-.nav-year-pic{
-   margin-left: 250px;
-   
-   
-}
-.section-mid{
-background-image: url("./resources/Vectorrr.png");
-height: 600px;
-}
-.wel-come{
+  }
+  .new-year-pic {
+    margin-left: 250px;
+  }
+  .section-mid {
+    background-image: url("./images/Vectorrr.png");
+    height: 600px;
+  }
+  .wel-come {
     color: white;
     padding-left: 150px;
     font-size: 80px;
-}
-#wlcm{
-    padding-top: 100px;
-}
-#pera-graph{
+  }
+  #wlcm {
+    padding-top: 40px;
+  }
+  #pera-graph {
     color: aliceblue;
-    padding-top: 0px;
+  
     padding-left: 150px;
-    padding-right: 600px;
-    padding-bottom: 8000px;
-}
-#joinn{
-    padding: 140px;
-    color: #2514c4;
-}
-.banner {
-    display: flex;
+    padding-right: 300px;
+  
     padding-top: 0px;
   }
-  .wel-come{
-    color: #FFF;
-
-    font-family: Merriweather;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 88px; 
-    letter-spacing: 7.04px;
+  #joinn {
+    padding: 140px;
+    color: #2514c4;
+  }
+  .banner {
+    display: flex;
+    padding-top: 0px;
   }
   .new-section {
     width: 1320px;
@@ -153,10 +108,9 @@ height: 600px;
     align-items: center;
     font-size: 30px;
     border-radius: 20px;
-    
   }
   .text-primary {
-background-color: #F00;
+    color: #f00;
   }
   .btn{
     background-color: #f00;
@@ -174,10 +128,9 @@ background-color: #F00;
     text-align: right;
   }
   #cntrl{
-    padding-left: 35%;
-    padding-top: 20px;
-    padding-bottom: 100px;
-
+     padding-left: 35%;
+     padding-top: 20px;
+     padding-bottom: 100px;
   }
   #year{
     color: #f00;
@@ -280,20 +233,3 @@ background-color: #F00;
     position: relative;
     justify-content: center;
   }
-  #img2{
-    
-    width: 802px;
-height: 500px;
-flex-shrink: 0;
-margin-bottom: 70px;
-
-}
-#pera-graoh{
-    color: rgba(255, 255, 255, 0.80);
-
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-}
